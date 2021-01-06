@@ -13,8 +13,7 @@ This fork provides some quality-of-life changes for the original driver.
 
 * Added Xinput controller support via SharpDX. The source includes the SharpDX implementation if you wish to change controller mappings (see GamepadSys.cs)
 
-* Default Controller Bindings (as mapped to an Xbox 360/One/Series Controller)
-<p><a target="_blank" rel="noopener noreferrer" href="/thesquidguy78/Vridge.Kinect/blob/master/mapping.png"><img src="/thesquidguy78/Vridge.Kinect/raw/master/mapping.png" alt="Example Screenshot" style="max-width:100%;"></a></p>
+* Default Controller Bindings (as mapped to an Xbox 360/One/Series Controller) <p><a target="_blank" rel="noopener noreferrer" href="/thesquidguy78/Vridge.Kinect/blob/master/mapping.png"><img src="/thesquidguy78/Vridge.Kinect/raw/master/mapping.png" alt="Example Screenshot" style="max-width:100%;"></a></p>
 
 ## License
 This project is released under the MIT License.
