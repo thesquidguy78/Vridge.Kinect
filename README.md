@@ -15,5 +15,7 @@ This fork provides some quality-of-life changes for the original driver.
 
 * Default Controller Bindings (as mapped to an Xbox 360/One/Series Controller) <a target="_blank" rel="noopener noreferrer" href="/thesquidguy78/Vridge.Kinect/blob/master/mapping.png"><img src="/thesquidguy78/Vridge.Kinect/raw/master/mapping.png" alt="Example Screenshot" style="max-width:100%;"></a>
 
+I do apologize if the code is a little messy. C# is not my best programming language.
+
 ## License
 This project is released under the MIT License.
