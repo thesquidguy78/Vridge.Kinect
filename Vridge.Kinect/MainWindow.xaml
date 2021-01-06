@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vridge.Kinect"
         mc:Ignorable="d"
-        Title="Vridge.Kinect" Height="185.777" Width="251.716" ResizeMode="NoResize">
-    <Grid>
+        Title="Vridge.Kinect" Height="207.85" Width="452.642" ResizeMode="NoResize">
+    <Grid Margin="0,0,4,0">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*" />
             <RowDefinition Height="20" />
@@ -14,7 +14,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <StackPanel Margin="5" Grid.Row="0" >
+        <StackPanel Margin="5,5,197,0" Grid.Row="0" >
             <StackPanel Orientation="Horizontal" Margin="0, 0, 0, 5">
                 <TextBlock HorizontalAlignment="Left" Text="Kinect Type" VerticalAlignment="Center" Width="100"/>
                 <ComboBox Width="115" SelectedIndex="0" x:Name="KinectTypeCombo" SelectionChanged="KinectTypeCombo_Selected">
@@ -26,9 +26,10 @@
             <CheckBox Content="Send Left Rotation" IsChecked="True" x:Name="SendLeftRotation" Click="SendLeftRotation_Click" />
             <CheckBox Content="Send Right Position" IsChecked="True" x:Name="SendRightPosition" Click="SendRightPosition_Click" />
             <CheckBox Content="Send Right Rotation" IsChecked="True" x:Name="SendRightRotation" Click="SendRightRotation_Click" />
+            <CheckBox Content="Upright Hands" IsChecked="True" x:Name="DisableHeadPosition" Click="DisableHeadPosition_Click" />
             <StackPanel  Orientation="Horizontal" Margin="5">
                 <Button Content="Connect" Tag="Connect" Width="100" Margin="0, 0, 15, 0" Click="OnConnectClicked"></Button>
-                <Button Content="Close" Tag="Close" Width="100" Click="OnShutdownClick"></Button>
+                <Button Content="Close" Tag="Close" Width="100" Click="OnShutdownClick"/>
             </StackPanel>
         </StackPanel>
         <Border Margin="5" Grid.Row="1" Grid.Column="1">
@@ -39,5 +40,6 @@
         <StackPanel Orientation="Horizontal" Grid.Row="2" Background="LightGray">
             <TextBlock Text="Not Connected" x:Name="ConnectionStatus" HorizontalAlignment="Right" />
         </StackPanel>
+        <Canvas HorizontalAlignment="Left" Height="143" Margin="246,10,0,0" VerticalAlignment="Top" Width="187"/>
     </Grid>
 </Window>

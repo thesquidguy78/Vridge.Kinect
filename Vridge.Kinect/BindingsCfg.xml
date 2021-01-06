@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Left>
+    <MenuButton></MenuButton>
+    <SystemButton></SystemButton>
+    <TriggerPressed></TriggerPressed>
+    <GripButton></GripButton>
+    <TouchpadClicked></TouchpadClicked>
+    <TouchpadTouched></TouchpadTouched>
+  </Left>
+  <Right>
+    <MenuButton></MenuButton>
+    <SystemButton></SystemButton>
+    <TriggerPressed></TriggerPressed>
+    <GripButton></GripButton>
+    <TouchpadClicked></TouchpadClicked>
+    <TouchpadTouched></TouchpadTouched>
+  </Right>
+</Data>
